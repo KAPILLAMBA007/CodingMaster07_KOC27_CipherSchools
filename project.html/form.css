@@ -1,0 +1,13 @@
+.bodycolour{
+margin: auto;
+width: auto;
+text-align: center;
+}
+ .abc{
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid rgb(28, 159, 224);
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}

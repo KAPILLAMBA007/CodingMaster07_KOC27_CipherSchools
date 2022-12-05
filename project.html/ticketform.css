@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #e3e6dd;
+    
+}
+.parent{
+    display: flex;
+    justify-content:center;
+    border: 3px solid rgb(28, 159, 224);
+    padding: 10px;
+    height: 580px;
+    width: 810px;
+}
+.abc{
+    position: absolute;
+    top: 40px;
+    left: 160px;
+}
+.dir{
+    float: left;
+    align-items: center;
+    background-color: rgb(168, 235, 241);
+    max-height: 570px;
+    max-width: 210px;
+    width: auto;
+    border: 3px solid blue;
+    padding: 10px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dit{
+display: block;
+padding: auto;
+margin-bottom: 30px;
+text-align: justify;
+flex: auto;
+max-height: 480px;
+    max-width: 607px;
+}
+.html{
+    height: 100%;
+}
+
